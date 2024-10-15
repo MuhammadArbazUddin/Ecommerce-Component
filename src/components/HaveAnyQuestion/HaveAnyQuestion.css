@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.have-any-question {
+  padding: 20px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+.have-any-question h2,
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.have-any-question h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.have-any-question p {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.info-sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-box {
+  flex: 1;
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box.highlight {
+  background: #1a5340;
+  color: #fff;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-box ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.check-icon {
+  color: #ffcc5c;
+  margin-right: 10px;
+}
+
+.info-box h3 {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.info-box p {
+  text-align: left;
+  color: inherit;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.info-location,
+.info-phone {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+span {
+  color: gray;
+  font-size: 15px;
+}
+
+.HAQicon {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #1a5340;
+}

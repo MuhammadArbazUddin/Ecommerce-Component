@@ -1,0 +1,126 @@
+.testimonial-slider-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-slider-container h2 {
+  color: #214842;
+  margin-bottom: 20px;
+  font-family: NunitoSans, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.testimonial-slider-container p {
+  font-family: NunitoSans, sans-serif;
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px 0px;
+}
+
+.testimonial-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 80%;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 0 15px rgba(37, 143, 103, 0.1);
+  min-height: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.testimonial-image-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Bigger stars for the rating */
+.product-ratingT {
+  display: flex;
+  justify-content: center;
+}
+
+.starT {
+  color: lightgray; /* Default color for unfilled stars */
+  font-size: 32px; /* Increase the size of the starTs */
+  margin: 0 2px; /* Adjust spacing between starTs */
+}
+
+.starT.filledT {
+  color: #ffd700; /* Color for filled stars */
+}
+
+.testimonial-review {
+  line-height: 1.2;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 5; */
+  /* -webkit-box-orient: vertical; */
+  overflow: hidden;
+  margin-top: 30px;
+  color: #214842;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-name {
+  text-align: center;
+  font-size: 17px;
+  font-family: Montserrat, sans-serif;
+  margin: 30px 0px;
+}
+
+/* Custom Dots */
+.slick-dots.custom-dots li {
+  width: 20px;
+  margin: 0 5px;
+}
+
+.slick-dots.custom-dots li button {
+  padding: 0;
+  border: none;
+}
+
+.slick-dots.custom-dots li button:before {
+  content: "";
+}
+
+.slick-dots.custom-dots li .custom-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.slick-dots.custom-dots li.slick-active .custom-dot {
+  background-color: #258f67;
+}
