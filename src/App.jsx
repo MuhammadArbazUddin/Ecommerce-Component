@@ -6,10 +6,12 @@ import ProductShowCase from "./components/ProductShowcase/ProductShowcase";
 import Testimonials from "./components/Testimonial/Testimonial";
 import ProductCategory from "./components/ProductCategories/ProductCategories";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 const App = () => {
   return (
     <>
       <Navbar />
+      <Hero />
       <ProductCategory />
       <ProductCarousel />
       <ProductShowCase />
